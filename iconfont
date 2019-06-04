@@ -1,0 +1,36 @@
+
+
+(function(){
+    if(window.umSiteFontLoaded){return;}
+    var domStyle = document.createElement('style');
+    var css = "\
+    @font-face {\
+      font-family: 'umsitefont';  /* project id 472294 */\
+      src: url('//at.alicdn.com/t/font_472294_36jl57osxv6.eot');\
+      src: url('//at.alicdn.com/t/font_472294_36jl57osxv6.eot?#iefix') format('embedded-opentype'),\
+      url('//at.alicdn.com/t/font_472294_36jl57osxv6.woff2') format('woff2'),\
+      url('//at.alicdn.com/t/font_472294_36jl57osxv6.woff') format('woff'),\
+      url('//at.alicdn.com/t/font_472294_36jl57osxv6.ttf') format('truetype'),\
+      url('//at.alicdn.com/t/font_472294_36jl57osxv6.svg#umsitefont') format('svg');\
+    }\
+    .umsitefont{\
+      font-family:'umsitefont' !important;\
+      line-height: 1;\
+      font-size:30px;font-style:normal;\
+      -webkit-font-smoothing: antialiased;\
+      -webkit-text-stroke-width: 0.2px;\
+      -moz-osx-font-smoothing: grayscale;\
+    }\
+    body, button, input, select, textarea{\
+      font:12px/1.5 'PingFangSC-Light','microsoft yahei',tahoma,arial,'Hiragino Sans GB',sans-serif;\
+    }\
+    ";
+    document.getElementsByTagName("head")[0].appendChild(domStyle);
+    if('styleSheet' in domStyle){
+        domStyle.setAttribute('type', 'text/css');
+        domStyle.styleSheet.cssText += css;
+    }else{
+        domStyle.innerHTML = css;
+    }
+    window.umSiteFontLoaded = true;
+})();

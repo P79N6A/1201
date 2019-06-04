@@ -1,0 +1,573 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1">
+<meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+<title>
+	
+        Dust Detective静态空气采样箱
+        -
+        Morechina
+    
+</title><meta name="keywords" content="<%= config.webkeyword %>"><meta name="description" content="<%= config.webdescription %>"><link rel="icon" href="favicon.ico" mce_href="favicon.ico" type="image/x-icon"> 
+<link rel="shortcut icon" href="favicon.ico" mce_href="favicon.ico" type="image/x-icon"> 
+<link rel="icon" href="animated_favicon.gif" type="image/gif">
+ 
+<script type="text/javascript" src="jquery-1.4.4.min.js"></script> 
+<!--[if IE 6]> 
+<script type="text/javascript" src="js/dd_png.js"></script> 
+<script>DD_belatedPNG.fix('.logo img,.btn-t img,.topr a img');</script> 
+<![endif]-->
+
+    <script type="text/javascript" src="jquery-1.3.2.min.js"></script>
+
+    <script type="text/javascript" src="jquery-ui-1.7.2.custom.min.js"></script>
+
+    <script type="text/javascript" src="msg.js"></script>
+
+    <script type="text/javascript" src="jquery.jqzoom.js"></script>
+
+    <script type="text/javascript">
+        $(function() {
+            $(".productTab2 > li > a.la").click(function() {
+            var index = $(".productTab2 > li > a.la").index($(this));
+            $(".productTab2 > li > a.la").removeClass("cur");
+                $(".productCon > .con").css("display", "none");
+                $(this).addClass("cur");
+                $(".productCon > .con:eq(" + index + ")").fadeIn();
+            });
+            $(".productTab2 > li > a.la").eq(0).addClass("cur");
+            $(".productCon > .con").eq(0).fadeIn();
+        });
+    </script>
+
+<script src="logger.js"></script>
+<link media="all" href="product_view_004.css" type="text/css" rel="stylesheet">
+<link href="http://bdimg.share.baidu.com/static/css/bdsstyle.css?cdnversion=20131219" rel="stylesheet" type="text/css"></head>
+<body><iframe style="display: none;" frameborder="0"></iframe><div id="bdshare_s" style="display: block;"><iframe id="bdsIfr" style="position:absolute;display:none;z-index:9999;" frameborder="0"></iframe><div id="bdshare_l" style="display: none;"><div id="bdshare_l_c"><h6>分享到</h6><ul><li><a href="#" class="bds_mshare mshare">一键分享</a></li><li><a href="#" class="bds_qzone qqkj">QQ空间</a></li><li><a href="#" class="bds_tsina xlwb">新浪微博</a></li><li><a href="#" class="bds_bdysc bdysc">百度云收藏</a></li><li><a href="#" class="bds_renren rrw">人人网</a></li><li><a href="#" class="bds_tqq txwb">腾讯微博</a></li><li><a href="#" class="bds_bdxc bdxc">百度相册</a></li><li><a href="#" class="bds_kaixin001 kxw">开心网</a></li><li><a href="#" class="bds_tqf txpy">腾讯朋友</a></li><li><a href="#" class="bds_tieba bdtb">百度贴吧</a></li><li><a href="#" class="bds_douban db">豆瓣网</a></li><li><a href="#" class="bds_tsohu shwb">搜狐微博</a></li><li><a href="#" class="bds_bdhome bdhome">百度新首页</a></li><li><a href="#" class="bds_sqq sqq">QQ好友</a></li><li><a href="#" class="bds_thx thx">和讯微博</a></li><li><a href="#" class="bds_more">更多...</a></li></ul><p><a href="#" class="goWebsite">百度分享</a></p></div></div></div><iframe style="display: none;" src="product_view_004_1.html" frameborder="0"></iframe><div id="bdshare_s" style="display: block;"><iframe id="bdsIfr" style="position: absolute; display: none; z-index: 9999;" src="product_view_004_2.html" frameborder="0"></iframe><div id="bdshare_l" style="display: none;"><div id="bdshare_l_c"><h6>分享到</h6><ul><li><a href="#" class="bds_mshare mshare">一键分享</a></li><li><a href="#" class="bds_qzone qqkj">QQ空间</a></li><li><a href="#" class="bds_tsina xlwb">新浪微博</a></li><li><a href="#" class="bds_bdysc bdysc">百度云收藏</a></li><li><a href="#" class="bds_renren rrw">人人网</a></li><li><a href="#" class="bds_tqq txwb">腾讯微博</a></li><li><a href="#" class="bds_bdxc bdxc">百度相册</a></li><li><a href="#" class="bds_kaixin001 kxw">开心网</a></li><li><a href="#" class="bds_tqf txpy">腾讯朋友</a></li><li><a href="#" class="bds_tieba bdtb">百度贴吧</a></li><li><a href="#" class="bds_douban db">豆瓣网</a></li><li><a href="#" class="bds_tsohu shwb">搜狐微博</a></li><li><a href="#" class="bds_bdhome bdhome">百度新首页</a></li><li><a href="#" class="bds_sqq sqq">QQ好友</a></li><li><a href="#" class="bds_thx thx">和讯微博</a></li><li><a href="#" class="bds_more">更多...</a></li></ul><p><a href="#" class="goWebsite">百度分享</a></p></div></div></div>
+    <form name="form1" method="post" action="http://www.morechina.com.cn/product_view.aspx?id=57" id="form1">
+<div>
+<input name="__VIEWSTATE" id="__VIEWSTATE" value="W6XOAOW1ftZR8G7lcMa2sUYlXvfJBjmdR0FC+/Kca4nWwqDduMYvsWRYse78QWCYe3rMlXrmMBUozjwc2dqpyAxI2x7djnDvf+KhxFx8d5IVutrylzTfK1Hw7TI=" type="hidden">
+</div>
+
+<div>
+
+	<input name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="5FBB1096" type="hidden">
+</div>
+    
+
+<script src="ac_runactivecontent.js" type="text/javascript"></script>
+
+<div id="top">
+    <div class="top center">
+        <div class="topl lfloat">
+            <a href="index.html" style="float: left; display: block;" indepth="true">
+                <img src="logo.jpg"></a>
+            <div class="topimg" id="madrid0">
+            </div>
+
+            <script type="text/javascript" src="swfobject.js"></script>
+
+            <script type="text/javascript" defer="defer">
+<!--
+                //<![CDATA[
+                var so = new SWFObject("images/imagerotator.swf", "madrid0", "370", "35", "7", "#ffffff");
+                so.addParam("wmode", "opaque");
+                so.addVariable("file", "images/madrid.xml");
+                so.addVariable("overstretch", "true");
+                so.addVariable("backcolor", "0x000000");
+                so.addVariable("frontcolor", "0xFFFFFF");
+                so.addVariable("lightcolor", "0xCC0000");
+                so.addVariable("rotatetime", "5");
+                so.addVariable("transition", "random");
+                so.addVariable("width", "370");
+                so.addVariable("height", "35");
+                so.write("madrid0");
+                //]]>
+-->
+            </script>
+
+        </div>
+        <div class="topr rfloat">
+            <h4 id="madrid1">
+                <img src="tel.jpg"></h4>
+        </div>
+
+        <script type="text/javascript" defer="defer">
+<!--
+            //<![CDATA[
+            var so2 = new SWFObject("images/imagerotator.swf", "madrid1", "248", "30", "7", "#ffffff");
+            so2.addParam("wmode", "opaque");
+            so2.addVariable("file", "images/madrid1.xml");
+            so2.addVariable("overstretch", "true");
+            so2.addVariable("backcolor", "0x000000");
+            so2.addVariable("frontcolor", "0xFFFFFF");
+            so2.addVariable("lightcolor", "0xCC0000");
+            so2.addVariable("rotatetime", "8");
+            so2.addVariable("transition", "random");
+            so2.addVariable("width", "248");
+            so2.addVariable("height", "30");
+            so2.write("madrid1");
+            //]]>
+-->
+        </script>
+
+        <ul class="nav">
+            <li id="topindex" style="border-left: 0px none;"><a href="default.html" indepth="true">首页</a></li>
+            <li id="topproduct" class="curr"><a href="product.html" indepth="true">产品中心</a>
+                <ul>
+                    <li><a href="proview.html" indepth="true">水质分析仪</a></li><li><a href="proview_001.html" indepth="true">气体检测仪</a></li><li><a href="proview_002.html" indepth="true">环境测量仪</a></li><li><a href="proview_003.html" indepth="true">气象监测仪</a></li><li><a href="proview_004.html" indepth="true">水文监测仪</a></li><li><a href="proview_005.html" indepth="true">旋光仪折光仪</a></li><li><a href="proview_006.html" indepth="true">实验室器具/耗材</a></li>
+                </ul>
+            </li>
+            <li id="topservice"><a href="brand.html" indepth="true">合作品牌</a>
+                <ul>
+                    <li><a href="bview.html" indepth="true">德国WTW-水质分析仪</a></li><li><a href="bview_001.html" indepth="true">英国CASELLA-粉尘/噪声</a></li><li><a href="bview_002.html" indepth="true">英国B+S-旋光仪折光仪</a></li><li><a href="bview_003.html" indepth="true">美国IST-气体检测仪</a></li><li><a href="bview_004.html" indepth="true">美国ESC-气体检测仪</a></li><li><a href="bview_005.html" indepth="true">美国GWI-气象水文监测</a></li><li><a href="bview_006.html" indepth="true">法国PONSEL-水质多参数</a></li><li><a href="bview_007.html" indepth="true">法国SECOMAM-快速COD</a></li><li><a href="bview_008.html" indepth="true">美国SPECTREX-粒度仪</a></li><li><a href="bview_009.html" indepth="true">德国STM-水质监测仪</a></li><li><a href="bview_010.html" indepth="true">美国YSI-水质分析仪</a></li><li><a href="bview_011.html" indepth="true">美国HACH-水质分析仪</a></li><li><a href="bview_012.html" indepth="true">韩国HANINT-酒精检测仪</a></li><li><a href="bview_013.html" indepth="true">美国英思科-气体检测仪</a></li><li><a href="bview_014.html" indepth="true">美国AlphaLab-电磁测量</a></li><li><a href="bview_015.html" indepth="true">台湾TES-工业通用仪表</a></li><li><a href="bview_016.html" indepth="true">更多品牌-ABC...XYZ</a></li>
+                </ul>
+            </li>
+            <li id="topdown"><a href="solution.html" indepth="true">解决方案</a>
+                <ul>
+                    <li><a href="solution_001.html" indepth="true">水质分析仪</a></li><li><a href="solution_002.html" indepth="true">气体检测仪</a></li><li><a href="solution_003.html" indepth="true">环境检测仪</a></li>
+                </ul>
+            </li>
+            <li id="topjob"><a href="support.html" indepth="true">技术支持</a>
+                <ul>
+                    <li><a href="support_001.html" indepth="true">常见问答</a></li><li><a href="support_002.html" indepth="true">技术应用</a></li><li><a href="support_003.html" indepth="true">标准规范</a></li><li><a href="support_004.html" indepth="true">资料下载</a></li>
+                </ul>
+            </li>
+            <li id="topnews"><a href="news.html" indepth="true">新闻资讯</a>
+                <ul>
+                    <li><a href="news_001.html" indepth="true">公司新闻</a></li><li><a href="news_002.html" indepth="true">行业新闻</a></li></ul>
+            </li>
+            <li id="topabout"><a href="about.html" indepth="true">关于我们</a>
+                <ul>
+                    <li class="active"><a href="about_001.html" indepth="true">公司简介</a></li><li><a href="about_002.html" indepth="true">工作机会</a></li><li><a href="about_003.html" indepth="true">联系我们</a></li>
+                </ul>
+            </li>
+            <li id="topcontact" style="border-right: 0px none;"><a href="contact.html" indepth="true">联系我们</a>
+                <ul>
+                    <li><a href="contact_001.html" indepth="true">联系我们</a></li>
+                </ul>
+            </li>
+            <li style="width: 185px; border-right: 0px none; background: transparent none repeat scroll 0% 0%;">
+                <select class="select" style="" onchange="location.href=this.options[this.selectedIndex].value">
+                    <option value="0">请选择要测的参数</option>
+                    <option value="">A</option><option value="">- 氨氮</option><option value="">- 氨气</option><option value="">B</option><option value="">- 苯</option><option value="">C</option><option value="">D</option><option value="">E</option><option value="">F</option><option value="">G</option><option value="">H</option><option value="">I</option><option value="">J</option><option value="">K</option><option value="">L</option><option value="">M</option><option value="">N</option><option value="">O</option><option value="">P</option><option value="">Q</option><option value="">R</option><option value="">S</option><option value="">T</option><option value="">U</option><option value="">V</option><option value="">W</option><option value="">X</option><option value="">Y</option><option value="">Z</option>
+                </select>
+            </li>
+        </ul>
+        <div class="clear">
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        setMenuBackground();
+    });
+
+    function setMenuBackground() {
+        var url = document.URL; //取得当前页的URL
+        if (/about/.test(url.toLowerCase())) {
+            $("#topabout").addClass("curr");
+        } else if (/product/.test(url.toLowerCase())) {
+            $("#topproduct").addClass("curr");
+        }
+        else if (/application/.test(url.toLowerCase())) {
+            $("#topservice").addClass("curr");
+        }
+        else if (/news/.test(url.toLowerCase())) {
+            $("#topnews").addClass("curr");
+        }
+        else if (/contact/.test(url.toLowerCase())) {
+            $("#topcontact").addClass("curr");
+        }
+        else if (/job/.test(url.toLowerCase())) {
+            $("#topjob").addClass("curr");
+        }
+        else if (/down/.test(url.toLowerCase())) {
+            $("#topdown").addClass("curr");
+        }
+        else {
+            $("#topindex").addClass("curr");
+        }
+    }
+
+</script>
+
+
+    <div class="banner">
+        <script type="text/javascript">            AC_FL_RunContent('codebase', 'http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0', 'width', '980', 'height', '260', 'FlashVars', 'bcastr_file=upload/201704/11/201704111843434674.jpg|upload/201403/19/201403191046545795.jpg|upload/201704/11/201704111844588426.jpg|upload/201403/19/201403191048182826.jpg|upload/201704/11/201704111845502017.jpg|upload/201403/19/201403191048254076.jpg|upload/201704/11/201704111846139831.jpg|upload/201403/19/201403191048316888.jpg&bcastr_link=#|#|#|#|#|#|#|#&bcastr_title&IsShowBtn=1&BtnOverColor=0xbd8c54&AutoPlayTime=5&Tween=2', 'src', 'images/FlashImg', 'quality', 'high', 'pluginspage', 'http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash', 'movie', 'images/FlashImg', 'Bgcolor', '#fafafa', 'wmode', 'opaque');</script><embed flashvars="bcastr_file=upload/201704/11/201704111843434674.jpg|upload/201403/19/201403191046545795.jpg|upload/201704/11/201704111844588426.jpg|upload/201403/19/201403191048182826.jpg|upload/201704/11/201704111845502017.jpg|upload/201403/19/201403191048254076.jpg|upload/201704/11/201704111846139831.jpg|upload/201403/19/201403191048316888.jpg&amp;bcastr_link=#|#|#|#|#|#|#|#&amp;bcastr_title&amp;IsShowBtn=1&amp;BtnOverColor=0xbd8c54&amp;AutoPlayTime=5&amp;Tween=2" src="images/FlashImg.swf" quality="high" pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" bgcolor="#fafafa" wmode="opaque" type="application/x-shockwave-flash" width="980" height="260"> <embed flashvars="bcastr_file=upload/201704/11/201704111843434674.jpg|upload/201403/19/201403191046545795.jpg|upload/201704/11/201704111844588426.jpg|upload/201403/19/201403191048182826.jpg|upload/201704/11/201704111845502017.jpg|upload/201403/19/201403191048254076.jpg|upload/201704/11/201704111846139831.jpg|upload/201403/19/201403191048316888.jpg&amp;bcastr_link=#|#|#|#|#|#|#|#&amp;bcastr_title&amp;IsShowBtn=1&amp;BtnOverColor=0xbd8c54&amp;AutoPlayTime=5&amp;Tween=2" src="flashimg.swf" quality="high" pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" bgcolor="#fafafa" wmode="opaque" type="application/x-shockwave-flash" width="980" height="260"> </div>
+    <div class="warp">
+        <div class="warpl">
+            <div class="ny">
+                <div class="title">
+                    产品中心</div>
+                <div class="nycon">
+                    <ul>
+                        <li><a href="proview.html" indepth="true">水质分析仪</a><ul><li><a href="product_list.html" indepth="true">pH/ORP测量仪</a></li><li><a href="product_list_001.html" indepth="true">ISE离子浓度测量仪</a></li><li><a href="product_list_002.html" indepth="true">电导率测量仪</a></li><li><a href="product_list_003.html" indepth="true">溶解氧测量仪</a></li><li><a href="product_list_004.html" indepth="true">浊度测量仪</a></li><li><a href="product_list_005.html" indepth="true">COD测量仪</a></li><li><a href="product_list_006.html" indepth="true">BOD测量仪</a></li><li><a href="product_list_007.html" indepth="true">分光光度计</a></li><li><a href="product_list_008.html" indepth="true">多参数测量仪</a></li><li><a href="product_list_009.html" indepth="true">水质采样器</a></li><li><a href="product_list_010.html" indepth="true">菌落计数器</a></li><li><a href="product_list_011.html" indepth="true">激光粒度仪</a></li></ul></li><li><a href="proview_001.html" indepth="true">气体检测仪</a><ul><li><a href="product_list_012.html" indepth="true">气体传感变送器</a></li><li><a href="product_list_013.html" indepth="true">气体监测控制器</a></li><li><a href="product_list_014.html" indepth="true">定制型多气体检测仪</a></li><li><a href="product_list_015.html" indepth="true">定制型单气体检测仪</a></li><li><a href="product_list_016.html" indepth="true">可燃气体报警仪</a></li><li><a href="product_list_017.html" indepth="true">便携式甲醛检测仪</a></li><li><a href="product_list_018.html" indepth="true">便携式氨气检测仪</a></li><li><a href="product_list_019.html" indepth="true">便携式臭氧检测仪</a></li><li><a href="product_list_020.html" indepth="true">便携式TVOC检测仪</a></li><li><a href="product_list_021.html" indepth="true">便携式CO检测仪</a></li><li><a href="product_list_022.html" indepth="true">便携式CO2检测仪</a></li><li><a href="product_list_023.html" indepth="true">便携式O2检测仪</a></li><li><a href="product_list_024.html" indepth="true">便携式H2S检测仪</a></li><li><a href="product_list_025.html" indepth="true">便携式SO2检测仪</a></li><li><a href="product_list_026.html" indepth="true">呼吸式酒精检测仪</a></li><li><a href="product_list_027.html" indepth="true">更多...气体检测仪</a></li></ul></li><li class="active"><a href="proview_002.html" indepth="true">环境测量仪</a><ul style="display: block;"><li><a href="product_list_028.html" indepth="true">数字声级计</a></li><li><a href="product_list_029.html" indepth="true">噪音剂量计</a></li><li class="active"><a href="product_list_030.html" indepth="true">实时粉尘仪</a></li><li><a href="product_list_031.html" indepth="true">个体采样泵</a></li><li><a href="product_list_032.html" indepth="true">空气/粉尘采样附件</a></li><li><a href="product_list_033.html" indepth="true">振动测量仪</a></li><li><a href="product_list_034.html" indepth="true">风速测量仪</a></li><li><a href="product_list_035.html" indepth="true">照度测量仪</a></li><li><a href="product_list_036.html" indepth="true">电磁微波测量仪</a></li></ul></li><li><a href="proview_003.html" indepth="true">气象监测仪</a><ul><li><a href="product_list_037.html" indepth="true">气象监测记录系统</a></li><li><a href="product_list_038.html" indepth="true">气象传感变送器</a></li><li><a href="product_list_039.html" indepth="true">便携式气象仪器</a></li></ul></li><li><a href="proview_004.html" indepth="true">水文监测仪</a><ul><li><a href="product_list_040.html" indepth="true">水位/水压测量</a></li><li><a href="product_list_041.html" indepth="true">流速/流量测量</a></li></ul></li><li><a href="proview_005.html" indepth="true">旋光仪折光仪</a><ul><li><a href="product_list_042.html" indepth="true">旋光仪</a></li><li><a href="product_list_043.html" indepth="true">折光仪</a></li></ul></li><li><a href="proview_006.html" indepth="true">实验室器具/耗材</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="warpr">
+            <div class="middle">
+                <div class="words center">
+                    <h4>
+                        <span class="rl">产品中心</span> <span class="rd">当前位置: <a href="default.html" indepth="true">首页</a> &gt; <a href="product.html" indepth="true">产品中心</a> &gt; <a href="http://www.morechina.com.cn/pro.aspxview.aspx?id=32">
+                                环境测量仪</a> &gt;
+                            实时粉尘仪</span></h4>
+                    <div class="wordscon">
+                        <div class="productInfoDIV">
+                            <div class="pictureDIV">
+                                <div style="height: auto; text-align: center;">
+                                    <span class="jqzoom">
+                                        <img jqimg="upload/201404/25/201404251001426875.jpg" src="201404251001426875.jpg"></span>
+                                </div>
+                            </div>
+                            <div class="infoDIV">
+                                <div class="infoTitle">
+                                    Dust Detective静态空气采样箱</div>
+                                <div class="productItem">
+                                    <ul>
+                                        <li>品牌:
+                                            英国CASELLA</li>
+                                        <li>型号:
+                                            Dust Detective</li>
+                                        <li>订货号:
+                                            </li>
+                                        <li></li>
+                                    </ul>
+                                    <a href="feedback.html" class="fbbg" target="_top" indepth="true">需要产品报价</a><a href="service.html" class="fbbg" style="margin-left: 25px;" target="_top" indepth="true">需要服务支持</a>
+                                    <!-- Baidu Button BEGIN -->
+                                    <div id="bdshare" class="bdshare_t bds_tools get-codes-bdshare">
+                                        <span class="bds_more" style="padding-top: 2px;">分享到：</span> <a class="bds_tsina" title="分享到新浪微博" href="#">
+                                        </a><a class="bds_qzone" title="分享到QQ空间" href="#"></a><a class="bds_tqq" title="分享到腾讯微博" href="#"></a><a class="bds_renren" title="分享到人人网" href="#"></a><a class="bds_kaixin001" title="分享到开心网" href="#"></a><a class="bds_t163" title="分享到网易微博" href="#"></a><a class="bds_douban" title="分享到豆瓣网" href="#"></a>
+                                        <a class="bds_bdhome" title="分享到百度新首页" href="#"></a><a class="bds_tieba" title="分享到百度贴吧" href="#"></a><a class="bds_ty" title="分享到天涯社区" href="#"></a><a class="bds_tqf" title="分享到腾讯朋友" href="#">
+                                        </a>
+                                    </div>
+
+                                    <script type="text/javascript" id="bdshare_js" data="type=tools&amp;uid=0" src="bds_s_v2.js"></script>
+
+                                    
+
+                                    <script type="text/javascript">
+                                        document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date() / 3600000)
+                                    </script>
+
+                                    <!-- Baidu Button END -->
+                                </div>
+                            </div>
+                        </div>
+                        <div id="productDetails">
+                            <ul class="productTab2 clearfix">
+                                <li><a class="la cur" href="javascript:void%200;">产品简介</a></li>
+                                <li><a class="la" href="javascript:void%200;">性能参数</a></li>
+                                <li><a class="la" href="javascript:void%200;">产品配置</a></li>
+                                <li><a href="download.html" class="ick" target="_top" indepth="true">产品样本</a></li>
+                                    <li><a href="download.html" class="ick" target="_top" indepth="true">使用手册</a></li><li><a class="la" href="javascript:void%200;">相关产品</a></li>
+                            </ul>
+                            <div class="productCon clearfix">
+                                <div class="con" style="display: block;">
+                                    <span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);">对于需要进行区域监测的现场操作人员和管理人员而言，静态空气采样箱是理想的工具，它可快速组装，便于使用，并且可以下载数据以便进行评和生成报告。该装置的完整配置包括Microdust Pro 实时粉尘监测仪、Apex 精简型空气采样泵，内置的碱性电池供电可运行长达19 小时。</span><br>
+<span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);">&nbsp;&nbsp; 它能够采集称重法数据和实时数据。使用嵌入的泡沫材料，选择性的采集PM10、PM2.5 和呼吸性粉尘。</span><br>
+<span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);">&nbsp;&nbsp; 可以单独购买该装置，作为Microdust Pro实时粉尘监测仪和Apex采样泵的配件。</span>
+                                </div>
+                                <div class="con">
+                                    <table style="background-color: rgb(255, 255, 255); font-family: 宋体;" class="ke-zeroborder" width="100%" border="0" cellspacing="0" cellpadding="0" height="618">
+	<tbody>
+		<tr>
+			<td height="603">
+				<p>
+					<strong>主要特点：</strong> 
+				</p>
+				<p>
+					称重法数据和实时数据<br>
+现场测量的理想选择<br>
+易于操作<br>
+运行时间可达19 小时*<br>
+可采集 PM10、PM2.5 和呼吸性粉尘<br>
+各个仪器可以单独拆卸和使用<br>
+不需外部电源供应<br>
+适合在偏远地区使用<br>
+室内或室外皆可使用
+				</p>
+				<p>
+					<strong>功能：</strong> 
+				</p>
+				<p>
+					&nbsp;&nbsp;&nbsp;&nbsp; 静态空气采样箱是非常坚固的采样箱，它能够固定住Microdust Pro 实时粉尘监测仪和Apex 精简型空气采样泵。该装置便于组装，可以进行现场静态空气采样。采样箱（IP65）完全防水，并可使用挂锁（需自行购买）固定于现场。如果需要采集称重法样品，可通过过滤器将空气样品吸入采样箱中。这些过滤器可用于测定污染源的颗粒性质。Microdust Pro 可记录实时<br>
+粉尘等级，在采样结束时数据可以被下载。还能够生成带有概括性数据的图表。内置的干电池可维持19 个小时*以上的操作时间。通过使用采样进口专用的进口泡沫，可对呼吸性、PM10 和 PM2.5颗粒进行监测。
+				</p>
+				<p>
+					<strong>Casella Insight 数据管理软件<img src="dust-2.jpg" width="99" align="absMiddle" height="43"></strong> 
+				</p>
+				<p>
+					&nbsp;&nbsp;&nbsp;&nbsp; 该软件包适用于Microdust Pro，能让用户确定粉尘等级的趋势，需要关注的区域以及需要采取行动进行补救或进一步观测的危险区域。记录保存在中央数据库中，并可轻松地生成报告。Casella Insight 也可以与CasellaCEL 的噪音测量计、声级计和采样泵一起使用。
+				</p>
+			</td>
+			<td width="200">
+				<div align="center">
+					<table class="ke-zeroborder" width="100%" border="0" cellspacing="0" cellpadding="0">
+						<tbody>
+							<tr>
+								<td>
+									<div align="center">
+										<img alt="静态空气采样箱" src="dust-0.jpg" width="200" height="261"> 
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<div align="center">
+										静态空气采样箱
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									&nbsp;
+								</td>
+							</tr>
+							<tr>
+								<td>
+									&nbsp;
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<div align="center">
+										<img alt="" src="dust-1.jpg" width="200" height="267"> 
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<div align="center">
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<div align="center">
+									</div>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</td>
+		</tr>
+	</tbody>
+</table>
+<table style="background-color: rgb(255, 255, 255); font-family: 宋体;" class="ke-zeroborder" width="100%" border="0" cellspacing="0" cellpadding="0">
+	<tbody>
+		<tr>
+			<td height="15">
+				<p>
+					&nbsp;
+				</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+<p style="background-color: rgb(255, 255, 255); text-indent: 0px; color: rgb(0, 0, 0);">
+	<strong>电池：</strong>Apex 精简型和Microdust Pro 都使用内置的AA 碱性电池。
+</p>
+<p style="background-color: rgb(255, 255, 255); text-indent: 0px; color: rgb(0, 0, 0);">
+	<br>
+<strong>电池寿命:</strong>通常可使用 19 小时以上（*在较低温度下操作时，碱性电池的寿命可能会减少）。
+</p>
+<p style="background-color: rgb(255, 255, 255); text-indent: 0px; color: rgb(0, 0, 0);">
+	<br>
+<strong>操作条件：</strong>相对湿度为 5~90%（无凝结）。温度为 0~40℃
+</p>
+<table style="background-color: rgb(255, 255, 255); font-family: 宋体;" class="ke-zeroborder" width="100%" border="0" cellspacing="0" cellpadding="0">
+	<tbody>
+		<tr>
+			<td width="37%">
+				<strong>技术规格:</strong> 
+			</td>
+			<td width="27%">
+				&nbsp;
+			</td>
+			<td width="36%">
+				&nbsp;
+			</td>
+		</tr>
+		<tr>
+			<td>
+				请参阅 Microdust Pro 和Apex 个体空气采样泵的宣传单。<br>
+*请注意装置不可用于户外的长期采样，因为湿度和粉尘会对光学元件造成影响。
+			</td>
+			<td>
+				<img src="dust-4.jpg" width="104" height="101"> 
+			</td>
+			<td>
+				<img src="dust-5.jpg" width="145" height="128"> 
+			</td>
+		</tr>
+	</tbody>
+</table>
+                                </div>
+                                <div class="con">
+                                    <p style="background-color: rgb(255, 255, 255); text-indent: 0px; color: rgb(0, 0, 0);">
+	<strong>订购信息：</strong> 
+</p>
+<p style="background-color: rgb(255, 255, 255); text-indent: 0px; color: rgb(0, 0, 0);">
+	静态空气采样箱套件：176171A（包括采样箱、MicrodustPro、适配器、聚氨酯泡沫过滤器（PUF）、下载数据线、Apex精简型空气采样泵和碱性电池）。
+</p>
+<p style="background-color: rgb(255, 255, 255); text-indent: 0px; color: rgb(0, 0, 0);">
+	静态空气采样箱：**176170D（仅含有适配器、聚氨酯泡沫过滤器（PUF）和采样箱）。
+</p>
+<p style="background-color: rgb(255, 255, 255); text-indent: 0px; color: rgb(0, 0, 0);">
+	**可分别订购其它仪器。<br>
+P104124：（使用干电池的Apex 精简型）<br>
+P104105：（使用配有充电座的Apex 标准型）<br>
+可用于 Microdust Pro 的镍氢充电电池：-B148；充电器：-PC18
+</p>
+<table style="background-color: rgb(255, 255, 255); font-family: 宋体;" class="ke-zeroborder" width="96%" border="0" cellspacing="0" cellpadding="0" height="158">
+	<tbody>
+		<tr>
+			<td width="49%">
+				<img src="dust-6.jpg" width="139" height="99"> 
+			</td>
+			<td width="3%">
+				&nbsp;
+			</td>
+			<td width="48%">
+				<img src="dust-7.jpg" width="131" height="101"> 
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<p>
+					图中所示为P104105套件，包括Microdust套件、Apex 套件、Apex 泵和充电器
+				</p>
+			</td>
+			<td>
+				&nbsp;
+			</td>
+			<td>
+				图中所示为P104124 套件，包括Microdust 套件、Apex 套件、Apex 精简型泵和预称重的过滤器
+			</td>
+		</tr>
+	</tbody>
+</table>
+<br class="Apple-interchange-newline">
+                                </div>
+                                <div class="con">
+                                    <ul class="plist03">
+                                        暂无内容</ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+<div id="conr">
+    <div class="conr">
+        <h3>
+            快速咨询</h3>
+        <div class="box2 Feedback" style="width: 185px; float: right; height: auto; overflow: hidden; margin: -5px 0px 0px; padding: 0px;">
+            <table style="width: 185px;" width="185px" border="0" cellpadding="0" height="160px">
+                <tbody>
+                    <tr>
+                        <td width="35px">
+                            咨询<br>
+                            内容:
+                        </td>
+                        <td>
+                            <textarea name="menu$txtcontent" id="menu_txtcontent" type="text" class="text" style="height: 50px;"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            姓名:
+                        </td>
+                        <td>
+                            <input name="menu$txtUserName" id="menu_txtUserName" size="20" maxlength="50" class="text" value="" type="text">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            电话:
+                        </td>
+                        <td>
+                            <input name="menu$txtUserTel" id="menu_txtUserTel" size="20" maxlength="50" class="text" value="" type="text">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            邮箱:
+                        </td>
+                        <td>
+                            <input name="menu$txtUserQQ" id="menu_txtUserQQ" size="40" maxlength="50" class="text" value="" type="text">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            &nbsp;
+                        </td>
+                        <td class="FormBtn">
+                            <input name="menu$btnSubmit" value="提交" id="menu_btnSubmit" class="btn-submit" type="submit">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <img src="rkf2.jpg" class="rfloat" style="width: 185px; display: none;">
+        <table style="width: 185px;" width="185px" border="0" cellpadding="0" height="160px">
+            <tbody><tr>
+                <td height="25px">
+                    <h3 style="background: rgb(255, 255, 255) none repeat scroll 0% 0%; color: rgb(0, 0, 0);">
+                        联系电话:</h3>
+                </td>
+            </tr>
+            <tr>
+                <td height="25px">
+                    &nbsp; &nbsp;021-6435 8726, 6435 8729
+                </td>
+            </tr>
+            <tr>
+                <td height="25px">
+                    &nbsp; &nbsp;021-6435 4745, 6435 7203 
+                </td>
+            </tr>
+            <tr>
+                <td height="25px">
+                    &nbsp; &nbsp;021-6435 8700, 6435 8170
+                </td>
+            </tr>
+            <tr>
+                <td height="25px">
+                    <h3 style="background: rgb(255, 255, 255) none repeat scroll 0% 0%; color: rgb(0, 0, 0);">
+                        传真:<span style="font-weight: normal; font-family: 宋体;">&nbsp;转8007分机</span></h3>
+                </td>
+            </tr>
+            <tr>
+                <td height="25px">
+                </td>
+            </tr>
+            <tr>
+                <td height="25px">
+                    <h3 style="background: rgb(255, 255, 255) none repeat scroll 0% 0%; color: rgb(0, 0, 0);">
+                        销售咨询 Email</h3>
+                </td>
+            </tr>
+            <tr>
+                <td height="25px">
+                    &nbsp; &nbsp;<a href="mailto:sales@morechina.com.cn">sales@morechina.com.cn</a>
+                </td>
+            </tr>
+        </tbody></table>
+    </div>
+</div>
+
+    </div>
+    
+ 
+<div class="foot center" style="border: medium none;">
+    <div class="footl">
+        <span class="lfloat">Copyright © 2008-2019 上海牧晨电子技术有限公司 版权所有  沪ICP备05061178号
+        </span><span class="rfloat"><a href="#">网站地图</a>  | <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_512486'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s4.cnzz.com/stat.php%3Fid%3D512486' type='text/javascript'%3E%3C/script%3E"));</script><span id="cnzz_stat_icon_512486"></span><script src=" http://s4.cnzz.com/stat.php?id=512486" type="text/javascript"></script></span></div></div></form></body></html>

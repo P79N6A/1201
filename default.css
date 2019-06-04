@@ -1,0 +1,78 @@
+/* ::::: http://www.morechina.com.cn/style/css1.css ::::: */
+
+* { padding: 0px; margin: 0px; }
+body { font-size: 12px; font-family: "宋体"; background: rgb(255, 255, 255) none repeat scroll 0% 0%; }
+img { border: 0px none; }
+ul { list-style-type: none; }
+table { border-collapse: collapse; border-spacing: 0px; }
+.lfloat { float: left; }
+.rfloat { float: right; }
+.clear { clear: both; height: 0px; }
+.center { margin: 0px auto; }
+a { text-decoration: none; outline: medium none; cursor: pointer; color: rgb(51, 51, 51); }
+a:hover { color: rgb(0, 0, 0); text-decoration: underline; }
+.topr h4 a:hover, .topr ul li a:hover, .foot a:hover, .topr01 h4 a:hover, .topr01 ul li a:hover { color: rgb(102, 51, 0); }
+#top { width: 100%; height: 130px; background: transparent url('topbj.jpg') repeat-x scroll 0% 0%; }
+.top { width: 990px; height: 138px; }
+.topl { width: 619px; }
+.topl img { margin-left: 0px; margin-top: 20px; }
+.topimg { width: 370px; height: 35px; overflow: hidden; float: left; margin-top: 35px; margin-left: 20px; }
+.topr, .topr01 { width: 250px; }
+.topr h4, .topr01 h4 { color: rgb(153, 153, 153); margin-top: 40px; text-align: right; padding-right: 10px; font-weight: 400; font-size: 12px; }
+.banner { width: 980px; height: auto; margin: 10px auto; overflow: hidden; }
+.nav { margin: 24px auto 0px; width: 990px; height: 33px; line-height: 33px; float: left; }
+.nav li { line-height: 33px; width: 100px; height: 33px; font-size: 14px; text-align: center; color: rgb(255, 255, 255); float: left; background: transparent url('libj.jpg') no-repeat scroll right center; position: relative; }
+.nav li a { color: rgb(255, 255, 255); font-size: 14px; }
+.nav li a { font-family: "微软雅黑"; }
+.nav li:hover { background: rgb(221, 238, 255) url('libj.jpg') no-repeat scroll right center; }
+.nav li:hover a, .nav li.curr:hover a { color: rgb(0, 0, 0); font-size: 14px; font-weight: 900; font-family: "微软雅黑"; }
+.nav li.curr a { color: rgb(255, 255, 255); font-size: 14px; font-weight: 900; font-family: "微软雅黑"; }
+.nav li:hover ul { display: block; }
+.nav li ul { position: absolute; background-color: rgb(221, 238, 255); width: 160px; height: auto; top: 33px; left: 0px; display: none; padding-bottom: 10px; z-index: 10000000; }
+.nav li ul li { background-image: none; float: left; width: 150px; margin-left: 4px; height: 22px; overflow: hidden; text-align: left; text-indent: 17px; }
+.nav li ul li:hover { background-image: none; }
+.nav li:hover ul li a, .nav li ul li a, .nav li.curr ul li a, .nav li.curr:hover ul li a { color: rgb(0, 0, 0); font-weight: normal; font-size: 12px; }
+.foot { width: 100%; color: rgb(255, 255, 255); background: rgb(39, 168, 225) none repeat scroll 0% 0%; height: 30px; line-height: 30px; overflow: hidden; font-family: "宋体"; margin-bottom: 20px; }
+.foot a { color: rgb(255, 255, 255); padding-left: 5px; padding-right: 5px; }
+.footl { width: 980px; height: 30px; line-height: 30px; margin: auto; }
+.right310 { width: 200px; float: right; overflow: hidden; }
+.right310 .ny { width: 198px; height: auto; border: 1px solid rgb(196, 219, 230); overflow: hidden; margin-bottom: 10px; }
+.right310 .ny .title { background: rgb(41, 167, 225) none repeat scroll 0% 0%; width: 196px; margin: 1px; height: 25px; line-height: 25px; text-indent: 1em; text-align: left; color: rgb(255, 255, 255); font-family: "微软雅黑"; font-size: 13px; font-weight: bold; }
+.right310 .ny .nycon { width: 100%; height: auto; border-top: 0px none; padding: 10px 0px; }
+.right310 .ny a.indexnews { display: block; float: right; width: 100px; text-align: right; padding-right: 10px; margin-bottom: 10px; color: rgb(255, 255, 255); font-weight: normal; font-size: 12px; font-family: "宋体"; }
+.warpl .ny .nycon ul, .right310 .ny .nycon ul { width: 100%; height: auto; }
+.right310 .ny .nycon ul { overflow: hidden; }
+.right310 .ny .nycon ul li { line-height: 18px; margin: 5px auto; padding-left: 14px; text-align: left; position: relative; overflow: hidden; }
+.right310 .ny .nycon ul.is li { background: transparent url('ico.jpg') no-repeat scroll 15px center; padding-left: 25px; }
+.right310 .ny .nycon ul.ipro { width: 100%; }
+.right310 .ny .nycon ul.ipro li { padding: 0px; height: 98px; width: 90px; margin: 5px 4px; float: left; text-align: center; }
+.right310 .ny .nycon ul.ipro li img { width: 80px; height: 80px; }
+.right310 .ny .nycon ul.ipro li h3 { width: 98px; height: 20px; font-size: 12px; font-weight: normal; }
+.select { width: 100%; display: inline; margin-right: 0px; padding: 0px; height: 22px; line-height: 22px; vertical-align: middle; background: rgb(255, 255, 255) none repeat scroll 0% 0%; color: rgb(153, 153, 153); border: 1px solid rgb(202, 202, 202); font-family: "宋体"; margin-top: 3px; }
+.btnST { width: 980px; height: auto; overflow: hidden; margin: 10px auto; }
+.inprocon { width: 100%; height: auto; min-height: 300px; overflow: hidden; border-top: 0px none; margin-bottom: 10px; }
+.inprocon ul { width: 100%; height: auto; overflow: hidden; margin: 0px; padding: 0px; }
+.inprocon ul li { width: 380px; height: 160px; float: left; border: 1px solid rgb(196, 219, 230); overflow: hidden; margin: 0px 8px 10px 0px; position: relative; }
+.inprocon ul li h3 { position: absolute; left: 15px; top: 8px; width: 210px; height: 25px; line-height: 25px; font-weight: normal; font-size: 13px; overflow: hidden; background: transparent url('tlhbj.jpg') no-repeat scroll 0px center; text-indent: 10px; }
+.inprocon ul li h3 a { color: rgb(0, 55, 106); }
+.inprocon ul li div { position: absolute; width: 210px; height: 118px; line-height: 20px; left: 15px; top: 30px; overflow: hidden; }
+.inprocon ul li p { position: absolute; width: 130px; height: 130px; overflow: hidden; right: 15px; top: 15px; }
+.inprocon ul li p img { width: 130px; height: 130px; }
+.left625 { width: 780px; float: left; height: auto; overflow: hidden; }
+.CenterClub ul { margin: 0px; }
+.CenterClub ul li { background: transparent url('line.gif') repeat-x scroll left bottom; height: auto; margin: 4px 0px; }
+.CenterClub ul li span { float: left; }
+.bd { width: 980px; overflow: hidden; height: 140px; position: relative; }
+.bd #goL { height: 54px; width: 19px; overflow: hidden; position: absolute; top: 50px; left: 10px; cursor: pointer; }
+.bd #goR { height: 54px; width: 19px; overflow: hidden; position: absolute; top: 50px; right: 10px; cursor: pointer; }
+.bd #sy_marquee { height: 140px; width: 900px; overflow: hidden; position: absolute; left: 35px; }
+.bd #sy_marquee ul { width: 900px; }
+.bd #sy_marquee ul li { width: 150px; height: 140px; float: left; margin-top: 20px; }
+.bd #sy_marquee ul li table { width: 140px; height: 70px; border: 1px solid rgb(196, 219, 230); }
+.bd #sy_marquee ul li table tr td { text-align: center; vertical-align: middle; }
+.bd #sy_marquee ul li table a { display: block; width: 140px; height: 70px; text-align: center; vertical-align: middle; }
+.bd #sy_marquee ul li table a img { max-width: 140px; max-height: 70px; }
+.bd #sy_marquee ul li h3 { width: 140px; color: rgb(35, 35, 35); font-size: 12px; font-weight: 400; height: 28px; line-height: 28px; text-align: center; overflow: hidden; }
+.bd #sy_marquee ul li a { display: block; overflow: hidden; }
+.bd #sy_marquee ul li h3 a { color: rgb(35, 35, 35); height: 28px; line-height: 28px; }
+.form-panel .field::after { content: " "; display: block; height: 0px; clear: both; }

@@ -1,0 +1,94 @@
+<html>
+<head>
+<meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+
+        <title>不能使用 ''；文件已在使用中。</title>
+        
+    
+<link media="all" href="solution_view.css" type="text/css" rel="stylesheet">
+</head>
+<body bgcolor="white">
+
+            <span><h1>“/”应用程序中的服务器错误。<hr width="100%" color="silver" size="1"></h1>
+
+            <h2> <i>不能使用 ''；文件已在使用中。</i> </h2></span>
+
+            <font face="Arial, Helvetica, Geneva, SunSans-Regular, sans-serif ">
+
+            <b> 说明: </b>执行当前 Web 请求期间，出现未处理的异常。请检查堆栈跟踪信息，以了解有关该错误以及代码中导致错误的出处的详细信息。
+
+            <br><br>
+
+            <b> 异常详细信息: </b>System.Exception: 不能使用 ''；文件已在使用中。<br><br>
+
+            <b>源错误:</b> <br><br>
+
+            <table width="100%" bgcolor="#ffffcc">
+               <tbody><tr>
+                  <td>
+                      <code><pre>
+行 350:                catch (System.Data.OleDb.OleDbException ex)
+行 351:                {
+<font color="red">行 352:                    throw new Exception(ex.Message);
+</font>行 353:                }
+行 354:                return ds;</pre></code>
+
+                  </td>
+               </tr>
+            </tbody></table>
+
+            <br>
+
+            <b> 源文件: </b> d:\webhosting\clients\2ffc00d2-3e8a-4804-93b7-2af6b8eae9ae\wwwroot\App_Code\DBUtility\DbHelperOleDb.cs<b> &nbsp;&nbsp; 行: </b> 352
+            <br><br>
+
+            <b>堆栈跟踪:</b> <br><br>
+
+            <table width="100%" bgcolor="#ffffcc">
+               <tbody><tr>
+                  <td>
+                      <code><pre>
+[Exception: 不能使用 ''；文件已在使用中。]
+   MoTony.DBUtility.DbHelperOleDb.Query(String SQLString) in d:\webhosting\clients\2ffc00d2-3e8a-4804-93b7-2af6b8eae9ae\wwwroot\App_Code\DBUtility\DbHelperOleDb.cs:352
+   Top.BindClassMenu2(Int32 cid, Int32 clid, String path) in d:\webhosting\clients\2ffc00d2-3e8a-4804-93b7-2af6b8eae9ae\wwwroot\Top.ascx.cs:54
+   ASP.top_ascx.__Render__control1(HtmlTextWriter __w, Control parameterContainer) in d:\webhosting\clients\2ffc00d2-3e8a-4804-93b7-2af6b8eae9ae\wwwroot\Top.ascx:63
+   System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children) +256
+   System.Web.UI.Control.RenderChildren(HtmlTextWriter writer) +19
+   System.Web.UI.Control.Render(HtmlTextWriter writer) +10
+   System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter) +27
+   System.Web.UI.Control.RenderControl(HtmlTextWriter writer, ControlAdapter adapter) +99
+   System.Web.UI.Control.RenderControl(HtmlTextWriter writer) +25
+   ASP.solution_view_aspx.__Renderform1(HtmlTextWriter __w, Control parameterContainer) in d:\dotnettemp\2.0\root\15f83a64\6fd6c396\App_Web_zo_rsusq.0.cs:0
+   System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children) +256
+   System.Web.UI.Control.RenderChildren(HtmlTextWriter writer) +19
+   System.Web.UI.HtmlControls.HtmlForm.RenderChildren(HtmlTextWriter writer) +163
+   System.Web.UI.HtmlControls.HtmlContainerControl.Render(HtmlTextWriter writer) +32
+   System.Web.UI.HtmlControls.HtmlForm.Render(HtmlTextWriter output) +51
+   System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter) +27
+   System.Web.UI.Control.RenderControl(HtmlTextWriter writer, ControlAdapter adapter) +99
+   System.Web.UI.HtmlControls.HtmlForm.RenderControl(HtmlTextWriter writer) +40
+   System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children) +134
+   System.Web.UI.Control.RenderChildren(HtmlTextWriter writer) +19
+   System.Web.UI.Page.Render(HtmlTextWriter writer) +29
+   System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter) +27
+   System.Web.UI.Control.RenderControl(HtmlTextWriter writer, ControlAdapter adapter) +99
+   System.Web.UI.Control.RenderControl(HtmlTextWriter writer) +25
+   System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint) +1266
+</pre></code>
+
+                  </td>
+               </tr>
+            </tbody></table>
+
+            <br>
+
+            <hr width="100%" color="silver" size="1">
+
+            <b>版本信息:</b>&nbsp;Microsoft .NET Framework 版本:2.0.50727.8800; ASP.NET 版本:2.0.50727.8745
+
+            </font>
+
+    
+
+</body>
+</html>

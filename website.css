@@ -1,0 +1,63 @@
+body { font-family: 宋体,Arial Narrow,arial,serif; background: rgb(255, 255, 255) none repeat scroll 0% 0%; color: rgb(51, 51, 51); font-size: 12px; }
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, blockquote { padding: 0px; margin: 0px; }
+li { list-style-type: none; }
+img { vertical-align: top; border: 0px none; }
+ol, ul { list-style: outside none none; }
+a { color: rgb(0, 134, 227); text-decoration: none; }
+a:hover { color: rgb(204, 0, 0); text-decoration: underline; }
+.x-header { width: 100%; height: 28px; border-bottom: 1px solid rgb(225, 225, 225); margin-bottom: 18px; background: transparent url('topback.jpg') repeat-x scroll 0% 0%; }
+.header-inner { width: 980px; margin: 0px auto; height: 28px; }
+.header-nav { float: right; margin-right: 10px; line-height: 28px; height: 28px; text-align: right; }
+.header-nav a { color: rgb(102, 102, 102); text-decoration: none; }
+.header-nav a:hover { color: rgb(204, 0, 0); text-decoration: underline; }
+.x-logo { width: 980px; height: 54px; margin: 0px auto; }
+.x-logo .logo { float: left; width: 248px; }
+.x-main { width: 980px; margin: 0px auto 13px; }
+.x-main .pwdhot { display: none; }
+.x-module { border: 1px solid rgb(199, 223, 241); }
+.x-module .mdl-title { margin-left: 1px; margin-top: 1px; color: rgb(255, 255, 255); height: 22px; padding: 2px 0px 2px 10px; background: transparent url('titleback.jpg') repeat-x scroll 0% 0%; font-size: 14px; font-weight: bold; }
+.x-login { width: 976px; height: 323px; background: transparent url('leftback.jpg') repeat-x scroll 0% 0%; padding: 1px; }
+.login-title .login-inner-title { font-weight: bold; font-size: 14px; color: rgb(255, 255, 255); line-height: 22px; }
+.login-title .title-tip { color: rgb(255, 255, 255); float: right; margin-right: 5px; font-size: 12px; font-weight: normal; }
+.login-title .title-tip span.tip { font-weight: bold; }
+.login-title .title-tip a.login-cnzz { color: rgb(255, 255, 255); text-decoration: underline; }
+.login-title .title-tip a.login-cnzz:hover { color: rgb(255, 255, 255); }
+.login-title .title-tip span.pwdfont5 { font-family: Arial,Helvetica,sans-serif; font-size: 12px; }
+.login-content { padding-top: 24px; height: 190px; padding-left: 25px ! important; padding-right: 6px; padding-bottom: 8px; }
+.row-login-form { height: 58px; }
+.cell-pwd { float: left; }
+.cell-pwd .label-pwd { height: 37px; float: left; font-size: 14px; font-weight: bold; color: rgb(0, 134, 227); width: 76px; line-height: 37px; }
+.cell-pwd .field-pwd { height: 37px; width: 180px; float: left; }
+.cell-pwd .field-pwd input { color: rgb(0, 0, 0); float: left; width: 160px; height: 34px; padding-left: 5px ! important; border: 1px solid rgb(255, 153, 102); line-height: 24px; }
+.cell-number { float: left; width: 200px; height: 37px; margin-left: 2px; }
+.cell-number .label-number { float: left; font-size: 14px; color: rgb(0, 134, 227); font-weight: bold; height: 37px ! important; line-height: 37px; }
+.cell-number .field-number { float: left; width: 44px; margin-left: 4px; height: 37px; }
+.cell-number .field-number input { height: 35px; width: 35px; padding-left: 5px ! important; margin: 0px; font-family: Arial,Helvetica,sans-serif; font-size: 14px; color: rgb(102, 102, 102); border: 1px solid rgb(255, 153, 102); line-height: 24px; }
+.cell-vcode { float: left; width: 53px; margin-left: 4px; height: 32px; padding-top: 5px; }
+.cell-vcode img { cursor: pointer; }
+.cell-submit { float: left; cursor: pointer; }
+.cell-help { float: left; margin-left: 10px; height: 37px ! important; line-height: 37px; }
+.row-client-down { height: 150px; border-top: 1px solid rgb(204, 204, 204); border-bottom: 1px solid rgb(204, 204, 204); margin-bottom: 15px; }
+.cell-qrcode { float: left; width: 150px; text-align: center; color: red; }
+.cell-qrcode img { margin-top: 25px; }
+.cell-down-btns { float: left; width: 65%; line-height: 20px; margin-top: 20px; }
+.cell-down-btns .down-title { font-size: 14px; color: rgb(0, 134, 227); font-weight: bold; }
+.cell-down-btns ul { margin-top: 6px; }
+.cell-down-btns .down-tip { color: rgb(0, 134, 227); }
+a.an_download { text-indent: -999em; float: left; width: 200px; height: 35px; background: transparent url('an_download.gif') no-repeat scroll 0% 0%; cursor: pointer; display: block; }
+a.an_download:hover { background: transparent url('an_download_hover.gif') no-repeat scroll 0% 0%; }
+a.app_download { text-indent: -999em; float: left; margin-left: 20px; width: 200px; height: 35px; background: transparent url('ios_download.gif') no-repeat scroll 0% 0%; cursor: pointer; display: block; }
+a.app_download:hover { background: transparent url('ios_download_hover.gif') no-repeat scroll 0% 0%; }
+.row-declare { padding: 0px 10px; line-height: 20px; }
+.row-declare .bblue { color: rgb(0, 134, 227); font-weight: bold; }
+.x-sitetool { width: 980px; height: 130px; background: transparent url('toolback.jpg') repeat-x scroll 0% 0%; margin: 0px auto; }
+.siteurl { width: 975px; height: 50px; text-align: center; line-height: 50px; font-size: 14px; color: rgb(51, 51, 51); font-weight: bold; margin-top: 0px; }
+.siteurl .bblue { color: rgb(0, 134, 227); font-weight: bold; }
+.siteurl input { width: 400px; height: 25px; line-height: 25px; border: 1px solid rgb(199, 223, 241); margin-top: 5px; }
+.sitebutton { width: 975px; height: 40px; text-align: center; margin-top: 7px; }
+.sitebutton img { border: medium none; }
+.x-footer .line { width: 980px; margin: 15px auto 13px; padding: 0px; }
+.x-footer .line img { width: 980px; height: 2px; }
+.x-footer .pwdbq { width: 980px; margin: 15px auto 13px; padding: 0px; text-align: center; line-height: 24px; }
+.x-footer .copyright { font-family: Arial,Helvetica,sans-serif; font-size: 12px; }
+.x-footer .icp { color: rgb(153, 153, 153); }

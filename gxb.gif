@@ -1,0 +1,119 @@
+
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<link rel="shortcut icon" href="/favicon.png" type="image/x-icon">
+<link rel="icon" href="/favicon.png" type="image/png">
+<title>友盟+，Apptrack，移动广告策略优化、投放监测与效果追踪</title>
+<meta name="keywords" content="友盟,AppTrack,效果监测,品效监测,广告效果监测,广告效果分析,移动广告监测,APP推广监测,跨屏,第三方广告监测,广告展现监测,广告点击监测,iOS推广监测,安卓推广监测,umeng监测,友盟监测,效果监测,app推广效果,广告监测,广告反作弊,反作弊技术,第三方广告监测,广告展现监测,广告点击监测,iOS推广监测,安卓推广监测,新用户转化分析,推广监测,推广分析"/>
+<meta name="description" content="友盟+移动广告监测，面向App开发者的全链路广告效果与分析平台，从渠道曝光、点击、下载、安装启动及后续的留存、注册、付费成交等全链路、全方位监测与分析评估，提升ROI。"/>
+<meta content="width=device-width, min-width=1200px">
+<meta content="yes" name="apple-mobile-web-app-capable"/>
+<meta content="yes" name="apple-touch-fullscreen"/>
+<meta name="imagemode" content="force"/>
+<meta name="browsermode" content="application"/>
+<meta name="x5-page-mode" content="app" />
+<link href="//g.alicdn.com/um-f2e/cdn-res/adplus/reset.css" rel="stylesheet"/>
+<link rel="stylesheet" href="//at.alicdn.com/t/font_169018_u4xdsllpwexc4n29.css"/>
+<link rel="stylesheet" href="//g.alicdn.com/um-f2e/cdn-res/adplus/main.css?20190129"/>
+<script type="text/javascript">!function(a,b){if(!b.__SV){var c,d,e,f;window.dplus=b,b._i=[],b.init=function(a,c,d){function g(a,b){var c=b.split(".");2==c.length&&(a=a[c[0]],b=c[1]),a[b]=function(){a.push([b].concat(Array.prototype.slice.call(arguments,0)))}}var h=b;for("undefined"!=typeof d?h=b[d]=[]:d="dplus",h.people=h.people||[],h.toString=function(a){var b="dplus";return"dplus"!==d&&(b+="."+d),a||(b+=" (stub)"),b},h.people.toString=function(){return h.toString(1)+".people (stub)"},e="disable track track_links track_forms register unregister get_property identify clear set_config get_config get_distinct_id track_pageview register_once track_with_tag time_event people.set people.unset people.delete_user".split(" "),f=0;f<e.length;f++)g(h,e[f]);b._i.push([a,c,d])},b.__SV=1.1,c=a.createElement("script"),c.type="text/javascript",c.charset="utf-8",c.async=!0,c.src="//w.cnzz.com/dplus.php?id=1258498910",d=a.getElementsByTagName("script")[0],d.parentNode.insertBefore(c,d)}}(document,window.dplus||[]),dplus.init("1258498910");</script>
+<script>window._TRACK = function(title,arg){if(!arg){arg = {};}arg.referrer = document.referrer;arg.url =  window.location.href;dplus && dplus.track(title,arg);};</script>
+<script>
+        	dplus.track('AD访问UV', {
+        		page_name: 'Apptrack首页'
+        	});
+        </script>
+<script type="text/javascript">!function(a,b){if(!b.__SV){var c,d,e,f;window.dplus=b,b._i=[],b.init=function(a,c,d){function g(a,b){var c=b.split(".");2==c.length&&(a=a[c[0]],b=c[1]),a[b]=function(){a.push([b].concat(Array.prototype.slice.call(arguments,0)))}}var h=b;for("undefined"!=typeof d?h=b[d]=[]:d="dplus",h.people=h.people||[],h.toString=function(a){var b="dplus";return"dplus"!==d&&(b+="."+d),a||(b+=" (stub)"),b},h.people.toString=function(){return h.toString(1)+".people (stub)"},e="disable track track_links track_forms register unregister get_property identify clear set_config get_config get_distinct_id track_pageview register_once track_with_tag time_event people.set people.unset people.delete_user".split(" "),f=0;f<e.length;f++)g(h,e[f]);b._i.push([a,c,d])},b.__SV=1.1,c=a.createElement("script"),c.type="text/javascript",c.charset="utf-8",c.async=!0,c.src="//w.cnzz.com/dplus.php?id=1271963207",d=a.getElementsByTagName("script")[0],d.parentNode.insertBefore(c,d)}}(document,window.dplus||[]),dplus.init("1271963207");</script>
+</head>
+<body><script>
+with(document)with(body)with(insertBefore(createElement("script"),firstChild))setAttribute("exparams","category=&userid=&aplus&yunid=&&asid=AQAAAAChh+5coQ0OegAAAAA2xVgffCucWg==&sidx=F9cHH6n5l9d/kUrgQEWr0GEa38qpP1OUIkIF10/05AQzty3qZ+j6lJ1lh7SDiMwbeUUNcJ8sP4BBY2zxxZvdwFQNuZpYc+ysAwU1YFQitetD/qtwt8T6relvYzo3dVfjdsFXkWi0WWrTm6+a/RzJ5ZSV8cEabAMgi/6amabY3yc=",id="tb-beacon-aplus",src=(location>"https"?"//g":"//g")+".alicdn.com/alilog/mlog/aplus_v2.js")
+</script>
+<div style="display: none;">
+<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1260676274'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s4.cnzz.com/z_stat.php%3Fid%3D1260676274' type='text/javascript'%3E%3C/script%3E"));</script>
+</div>
+<div id="apptrack"></div>
+<script src="//g.alicdn.com/um-f2e/cdn-res/adplus/runtime.js?201904010237"></script>
+<script src="//g.alicdn.com/um-f2e/cdn-res/adplus/common.js?201904010237"></script>
+<script src="//g.alicdn.com/um-f2e/cdn-res/adplus/apptrack.js?201904010237"></script>
+<script src="//www.umeng.com/tms/html/www/script/alicare"></script>
+<div class="footer">
+<div class="footer-content">
+<ul>
+<li class="bbs">
+<h3>论坛</h3>
+<a href="http://bbs.umeng.com/forum-umtrack-1.html" target="_blank" class="bbs">AppTrack论坛</a>
+</li>
+<li class="contact">
+<h3>联系我们</h3>
+<p>
+<i class="iconfont icon-qq"></i>
+<span>AppTrack QQ群：327404124</span>
+</p>
+</li>
+<li class="media">
+<h3>关注我们</h3>
+<a href="http://weibo.com/cnzzcom?sudaref=gxb.cnzz.com" target="_blank">
+<i class="iconfont icon-xinlang"></i>
+<span>新浪微博</span>
+</a>
+<a href="https://www.umeng.com/about" target="_blank">
+<i class="iconfont icon-youmeng2"></i>
+<span>友盟＋</span>
+</a>
+</li>
+</ul>
+</div>
+<p class="copyright">© 2011-2018 Umeng.com , All Rights Reserved.京ICP备案11021163号-6 |&nbsp;京公网安备 11010802021761&nbsp;</p>
+<p class="youmeng"><a href="#"><span class="iconfont icon-youmeng"></span></a></p>
+<div class="top">TOP</div>
+</div>
+<script>
+        var addEvent = (function() {
+            if (document.addEventListener) {
+                return function(el, type, fn) {
+                    if (el.length) {
+                        for (var i = 0; i < el.length; i++) {
+                            addEvent(el[i], type, fn);
+                        }
+                    } else {
+                        el.addEventListener(type, fn, false);
+                    }
+                };
+            } else {
+                return function(el, type, fn) {
+                    if (el.length) {
+                        for (var i = 0; i < el.length; i++) {
+                            addEvent(el[i], type, fn);
+                        }
+                    } else {
+                        el.attachEvent('on' + type,
+                        function() {
+                            return fn.call(el, window.event);
+                        });
+                    }
+                };
+            }
+        })();
+    
+        var topNode = document.querySelector('.top');
+        addEvent(topNode, 'click', function() {
+            var _timer = setInterval(function () {
+                var _top = document.documentElement.scrollTop || document.body.scrollTop;
+                _top = Math.ceil(_top * 0.8);
+                if (_top < 10) {
+                    _top = 0;
+                    clearInterval(_timer);
+                }
+                ;
+                window.scrollTo(0, _top);
+            }, 20);               
+        });
+        
+        var bbs = document.querySelectorAll('.bbs');
+        addEvent(bbs, 'click', function(e) {
+            window._TRACK('bbsclick', {name: e.target.textContent}); 
+        });
+    </script>
+</body>
+</html>

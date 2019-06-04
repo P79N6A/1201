@@ -1,0 +1,5 @@
+body { font-family: "Verdana"; font-weight: normal; font-size: 0.7em; color: black; }
+b { font-family: "Verdana"; font-weight: bold; color: black; margin-top: -5px; }
+H1 { font-family: "Verdana"; font-weight: normal; font-size: 18pt; color: red; }
+H2 { font-family: "Verdana"; font-weight: normal; font-size: 14pt; color: maroon; }
+pre { font-family: "Lucida Console"; font-size: 0.9em; }

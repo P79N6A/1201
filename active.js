@@ -1,0 +1,12 @@
+$(function(){
+		$('#sy_marquee').kxbdSuperMarquee({
+			distance:150,
+			duration:15,
+			time:3,
+			isEqual:false,
+			scrollDelay:15,
+			direction:'left',
+			btnGo:{left:'#goL',right:'#goR'},
+			eventGo:'click'
+		});		
+});

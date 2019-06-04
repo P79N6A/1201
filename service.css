@@ -1,0 +1,85 @@
+/* ::::: http://www.morechina.com.cn/style/css1.css ::::: */
+
+* { padding: 0px; margin: 0px; }
+body { font-size: 12px; font-family: "宋体"; background: rgb(255, 255, 255) none repeat scroll 0% 0%; }
+img { border: 0px none; }
+ul { list-style-type: none; }
+table { border-collapse: collapse; border-spacing: 0px; }
+.lfloat { float: left; }
+.rfloat { float: right; }
+.clear { clear: both; height: 0px; }
+.center { margin: 0px auto; }
+a { text-decoration: none; outline: medium none; cursor: pointer; color: rgb(51, 51, 51); }
+a:hover { color: rgb(0, 0, 0); text-decoration: underline; }
+.topr h4 a:hover, .topr ul li a:hover, .foot a:hover, .topr01 h4 a:hover, .topr01 ul li a:hover { color: rgb(102, 51, 0); }
+#top { width: 100%; height: 130px; background: transparent url('topbj.jpg') repeat-x scroll 0% 0%; }
+.top { width: 990px; height: 138px; }
+.topl { width: 619px; }
+.topl img { margin-left: 0px; margin-top: 20px; }
+.topimg { width: 370px; height: 35px; overflow: hidden; float: left; margin-top: 35px; margin-left: 20px; }
+.topr, .topr01 { width: 250px; }
+.topr h4, .topr01 h4 { color: rgb(153, 153, 153); margin-top: 40px; text-align: right; padding-right: 10px; font-weight: 400; font-size: 12px; }
+.banner { width: 980px; height: auto; margin: 10px auto; overflow: hidden; }
+.nav { margin: 24px auto 0px; width: 990px; height: 33px; line-height: 33px; float: left; }
+.nav li { line-height: 33px; width: 100px; height: 33px; font-size: 14px; text-align: center; color: rgb(255, 255, 255); float: left; background: transparent url('libj.jpg') no-repeat scroll right center; position: relative; }
+.nav li a { color: rgb(255, 255, 255); font-size: 14px; }
+.nav li a { font-family: "微软雅黑"; }
+.nav li:hover { background: rgb(221, 238, 255) url('libj.jpg') no-repeat scroll right center; }
+.nav li:hover a, .nav li.curr:hover a { color: rgb(0, 0, 0); font-size: 14px; font-weight: 900; font-family: "微软雅黑"; }
+.nav li.curr a { color: rgb(255, 255, 255); font-size: 14px; font-weight: 900; font-family: "微软雅黑"; }
+.nav li:hover ul { display: block; }
+.nav li ul { position: absolute; background-color: rgb(221, 238, 255); width: 160px; height: auto; top: 33px; left: 0px; display: none; padding-bottom: 10px; z-index: 10000000; }
+.nav li ul li { background-image: none; float: left; width: 150px; margin-left: 4px; height: 22px; overflow: hidden; text-align: left; text-indent: 17px; }
+.nav li ul li:hover { background-image: none; }
+.nav li:hover ul li a, .nav li ul li a, .nav li.curr ul li a, .nav li.curr:hover ul li a { color: rgb(0, 0, 0); font-weight: normal; font-size: 12px; }
+.foot { width: 100%; color: rgb(255, 255, 255); background: rgb(39, 168, 225) none repeat scroll 0% 0%; height: 30px; line-height: 30px; overflow: hidden; font-family: "宋体"; margin-bottom: 20px; }
+.foot a { color: rgb(255, 255, 255); padding-left: 5px; padding-right: 5px; }
+.footl { width: 980px; height: 30px; line-height: 30px; margin: auto; }
+.warp { width: 980px; height: auto; margin: 0px auto 10px; overflow: hidden; }
+.warpl { width: 188px; float: left; border: 1px solid rgb(196, 219, 230); min-height: 600px; height: auto; overflow: hidden; }
+.warpl .ny { width: 188px; height: auto; margin-bottom: 10px; }
+.warpl .ny .title { background: rgb(41, 167, 225) none repeat scroll 0% 0%; width: 186px; margin: 1px; height: 25px; line-height: 25px; text-indent: 1em; text-align: left; color: rgb(255, 255, 255); font-family: "微软雅黑"; font-size: 13px; font-weight: bold; }
+.warpl .ny .nycon { width: 100%; height: auto; border-top: 0px none; padding: 10px 0px; }
+.warpl .ny .nycon ul, .right310 .ny .nycon ul { width: 100%; height: auto; }
+.warpl .ny .nycon ul li { width: 100%; line-height: 25px; margin: 5px auto; text-indent: 2em; position: relative; }
+.warpl .ny .nycon ul li:hover, .warpl .ny .nycon ul li.active { background: transparent url('tlhbj1.jpg') no-repeat scroll 10px 10px; }
+.warpl .ny .nycon ul li a { color: rgb(0, 55, 106); font-family: 宋体; }
+.warpl .ny .nycon ul li a:hover, .warpl .ny .nycon ul li.active a { color: rgb(0, 55, 106); }
+.warpl .ny .nycon ul li:hover ul {  }
+.warpl .ny .nycon ul li ul { background: rgb(255, 255, 255) none repeat scroll 0% 0%; width: 170px; margin-left: 20px; line-height: 20px; display: none; }
+.warpl .ny .nycon ul li ul li { background: transparent url('tlhbj.jpg') no-repeat scroll 10px 8px; }
+.warpl .ny .nycon ul li ul li:hover, .warpl .ny .nycon ul li ul li.active { background: transparent url('tlhbj2.jpg') no-repeat scroll 10px 8px; }
+input.small, input.text, .text { width: 95%; display: inline; margin-right: 0px; padding: 0px; height: 18px; line-height: 18px; vertical-align: middle; background: rgb(255, 255, 255) none repeat scroll 0% 0%; color: rgb(153, 153, 153); border: 1px solid rgb(196, 219, 230); font-family: "Microsoft YaHei"; }
+.select { width: 100%; display: inline; margin-right: 0px; padding: 0px; height: 22px; line-height: 22px; vertical-align: middle; background: rgb(255, 255, 255) none repeat scroll 0% 0%; color: rgb(153, 153, 153); border: 1px solid rgb(202, 202, 202); font-family: "宋体"; margin-top: 3px; }
+.btn-submit { width: 64px; height: 20px; color: rgb(255, 255, 255); background: rgb(41, 167, 225) none repeat scroll 0% 0%; font-size: 12px; text-align: center; border: 1px solid rgb(41, 167, 225); padding: 1px; }
+.warpr { width: 585px; float: left; margin-left: 10px; overflow: hidden; }
+.middle { width: 100%; }
+.middle .words { width: 100%; padding-bottom: 10px; height: auto; }
+.middle .words h4 { background: rgb(41, 167, 225) none repeat scroll 0% 0%; color: rgb(255, 255, 255); font-size: 12px; height: 24px; line-height: 24px; font-weight: normal; margin-top: 2px; }
+.middle .words h4 span.rl { height: 24px; background: rgb(255, 255, 255) none repeat scroll 0% 0%; width: 80px; display: none; float: left; text-align: center; line-height: 24px; margin-left: 20px; color: rgb(51, 51, 51); font-weight: bold; font-size: 13px; font-family: 微软雅黑; }
+.middle .words h4 span.rd { height: 24px; line-height: 24px; color: rgb(255, 255, 255); font-size: 12px; font-family: 宋体; float: left; display: block; width: 580px; text-align: left; padding-left: 10px; }
+.middle .words h4 span.rd a { color: rgb(255, 255, 255); }
+.middle .words h4 span.rd a:hover { text-decoration: underline; }
+.middle .words h4 a { color: rgb(255, 255, 255); }
+.middle .words .wordscon { font-family: "宋体"; color: rgb(51, 51, 51); padding: 5px 0px; width: 585px; min-height: 480px; line-height: 25px; }
+#conr { background: transparent url('conrbg.jpg') repeat-y scroll left top; min-height: 619px; width: 195px; float: right; overflow: hidden; margin-top: 2px; }
+.conr { width: 185px; height: auto; float: right; }
+.conr h3 { background: rgb(41, 167, 225) none repeat scroll 0% 0%; width: 185px; height: 25px; line-height: 25px; text-indent: 1em; text-align: left; color: white; font-family: "微软雅黑"; font-size: 13px; font-weight: bold; }
+.conr table { float: right; width: 185px; margin: 10px 0px; padding: 0px; line-height: 20px; }
+.conr table tr td { text-align: left; }
+.form-panel { margin: 10px 0px 5px 5px; overflow: hidden; }
+.form-panel .field { clear: both; }
+.form-panel li.field, .form-panel li { list-style: outside none none; }
+.form-panel li.field label { display: block; float: left; width: 150px; line-height: 34px; text-align: right; }
+.form-panel .input { padding: 5px 0px; }
+.form-panel .field::after { content: " "; display: block; height: 0px; clear: both; }
+.form-panel .text { width: 250px; height: 20px; padding: 1px 3px; border: 1px solid rgb(204, 204, 204); background: rgb(255, 255, 255) none repeat scroll 0% 0%; color: rgb(102, 102, 102); border-radius: 4px; display: inline; }
+.form-panel .textarea { width: 250px; height: 100px; padding: 1px 3px; border: 1px solid rgb(204, 204, 204); background: rgb(255, 255, 255) none repeat scroll 0% 0%; color: rgb(102, 102, 102); border-radius: 4px; display: inline; }
+.form-panel .submit-field { overflow: hidden; padding: 0px 10px 20px 0px; clear: both; }
+.form-panel .submit-field input { margin-right: 10px; }
+.form-panel .submit-field .btn-submit { width: 148px; height: 40px; background: transparent url('btn-bj.png') no-repeat scroll 0% 0%; border: 0px none; color: rgb(255, 255, 255); font-size: 14px; text-indent: 0em; text-align: center; cursor: pointer; }
+.form-panel .field #rblis { width: 250px; float: left; }
+.form-panel .field #rblis input { float: left; margin-top: 10px; border: 1px solid rgb(204, 204, 204); }
+.form-panel .field #rblis td label { float: left; width: 60px; height: 18px; text-align: left; padding-left: 2px; }
+/* ::::: http://www.morechina.com.cn/css/pagination.css ::::: */
+
